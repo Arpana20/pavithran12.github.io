@@ -1,11 +1,11 @@
 html{
     background-image: url("https://pavithran12.github.io/Photos/i.jpg");
+    cursor:text;
   }
   
   #grid
   {
     background-image:url("https://pavithran12.github.io/Photos/bg.jpg");
-    border-radius:20px;
     width:100%;
     height:100%;
     text-align:center;
@@ -21,6 +21,9 @@ html{
   		padding:0;
   		margin:0;
     }
+  #left{
+    text-align:left;
+  }
   a{
   		color:inherit;
   		font-weight:bold;
@@ -35,7 +38,6 @@ html{
     a:active{
   		color:blue;
     }
-  
     .add{
       padding-left:50px;
     }
@@ -75,7 +77,6 @@ html{
   	.pf-grid-item
   	{
   		margin-right:1rem;
-  		border-radius:20px
   	}
   	}
   /*.large screen*/
@@ -113,110 +114,110 @@ html{
   	width:100%;
   	height:10px;
   	border-radius:5px;
-  	background: white;
+  	background-color:red;
   }
   .level-100
   {
   	height:10px;
-    background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:green;
   	width:100%;
   	border-radius:2px;
   }
   .level-95
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:95%;
   	border-radius:2px;
   }
   .level-90
   {
   	height:10px;
-    background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:90%;
   	border-radius:2px;
   }
   .level-85
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:85%;
   	border-radius:2px;
   }
   .level-80
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:80%;
   	border-radius:2px;
   }
   .level-75
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:75%;
   	border-radius:2px;
   }
   .level-70
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:70%;
   	border-radius:2px;
   }
   .level-65
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:65%;
   	border-radius:2px;
   }
   .level-60
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:60%;
   	border-radius:2px;
   }
   .level-55
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:55%;
   	border-radius:2px;
   }
   .level-50
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:50%;
   	border-radius:2px;
   }
   .level-45
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:45%;
   	border-radius:2px;
   }
   .level-40
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:40%;
   	border-radius:2px;
   }
   .level-35
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:35px;
   	border-radius:2px;
   }
   .level-30
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:30%;
   	border-radius:2px;
   }
@@ -230,28 +231,28 @@ html{
   .level-20
   {
   	height:10px;
-    background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:20%;
   	border-radius:2px;
   }
   .level-15
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:15%;
   	border-radius:2px;
   }
   .level-10
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:50%;
   	border-radius:2px;
   }
   .level-5
   {
   	height:10px;
-  	background-image: url("https://pavithran12.github.io/Photos/bg02.jpg");
+  	background:#9ad891;
   	width:5%;
   	border-radius:2px;
   }
