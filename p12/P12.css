@@ -2,7 +2,6 @@ html{
     background-image: url("https://pavithran12.github.io/Photos/i.jpg");
     cursor:text;
   }
-  
   #grid
   {
     background-image:url("https://pavithran12.github.io/Photos/bg.jpg");
@@ -20,6 +19,9 @@ html{
   		font-family:gotham;
   		padding:0;
   		margin:0;
+    }
+    table{
+      border:2px;
     }
   #left{
     text-align:left;
