@@ -4,5 +4,15 @@ html{
   font-size: 10vh;
 }
 input{
+  font-family: 'Tangerine',serif;
   font-size:5vh;
+  font-weight:bold;
+}
+button{
+  height:5vh;
+  border-radius:1vh;
+  background-color:#dd4ae0;
+  font-family: 'Tangerine',serif;
+  font-size: 5vh;
+  font-weight:bold;
 }
