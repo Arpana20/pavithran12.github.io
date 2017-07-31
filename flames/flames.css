@@ -9,10 +9,11 @@ input{
   font-weight:bold;
 }
 button{
-  height:5vh;
-  border-radius:1vh;
-  background-color:#dd4ae0;
+  height:10vh;
+  width:30vh;
+  padding:3px;
+  border-radius:3vh;
   font-family: 'Tangerine',serif;
-  font-size: 5vh;
-  font-weight:bold;
+  font-size: 10vh;
+  background-color:#f4c6de;
 }
