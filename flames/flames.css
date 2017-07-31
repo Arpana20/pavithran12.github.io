@@ -1,12 +1,16 @@
 html{
   background:url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.loveimagesdownload.com%2Fwp-content%2Fuploads%2F2016%2F08%2Flove-wallpapers-13.jpg&f=1");
+  background-repeat:no-repeat;
   font-family: 'Tangerine', serif;
   font-size: 5vh;
+  
+  
 }
 input{
   font-family: 'Tangerine',serif;
   font-size:5vh;
-  font-weight:bold;
+  cursor:pointer;
+
 }
 button{
   height:5vh;
@@ -15,7 +19,10 @@ button{
   border-radius:3vh;
   font-family: 'Tangerine',serif;
   font-size:5vh;
-  background-color:#f4c6de;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
 }
 #result{
   text-align:center;
