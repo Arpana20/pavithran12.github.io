@@ -17,3 +17,6 @@ button{
   font-size: 10vh;
   background-color:#f4c6de;
 }
+#result{
+  text-align:center;
+}
