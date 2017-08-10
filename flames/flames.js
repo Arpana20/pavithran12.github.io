@@ -13,26 +13,24 @@ function eliminate_common_letters(name1,name2){    // Function to eliminate simi
 	}
 	return name1.length+name2.length;
 }
-
 function get_value(string){                   //function to get corresponding string
 	var key="";
 	switch(string){
-		case 'f':key="Friend";
+		case 'f':key="FRIEND";
 				 break;
-		case 'l':key="Love";
+		case 'l':key="LOVE";
 				 break;
-		case 'a':key="Affection";
+		case 'a':key="AFFECTION";
 				 break;
-		case 'm':key="Marriage";
+		case 'm':key="MARRIAGE";
 				 break;
-		case 'e':key="Enemy";
+		case 'e':key="ENEMY";
 				 break;
-		case 's':key="Sister";
+		case 's':key="SISTER";
 				 break;
 	}
 	return key;
 }
-
 function calculate_flames(num){               //to calculate flames
 	var string="flames";
 	var i=6;
@@ -51,7 +49,6 @@ function calculate_flames(num){               //to calculate flames
 	}
 	return get_value(string);
 }
-
 function flames(){
 	var first_name=document.getElementById("first_name").value;
 	var second_name=document.getElementById("second_name").value;
@@ -63,8 +60,37 @@ function flames(){
 		//document.getElementById("2").innerHTML=second_name;
 		var num=eliminate_common_letters(first_name.toLowerCase(),second_name.toLowerCase());
 		var ans=calculate_flames(num);
-		document.getElementById("answer").innerHTML="The Relation between "+first_name+" and "+second_name+" is "
+		document.getElementById("answer").innerHTML="THE RELATION BETWEEN "+first_name+" AND "+second_name+" IS "
 		document.getElementById("ans").innerHTML=ans;
 		console.log(ans);
-	}
+	  var img = document.createElement("img");
+		    if (ans==="FRIEND"){
+		    img.src ='friends.jpg';
+		    img.style.margin = "0 auto"; 
+			}
+			else if(ans==="LOVE"){
+			img.src ='love.jpg';
+			img.style.margin = "0 auto"; 
+			}
+			else if(ans==="AFFECTION"){
+			img.src ='affection.jpg';
+			img.style.margin = "0 auto"; 
+			}
+			else if(ans==="MARRIAGE"){
+			img.src = 'marriage.jpg';
+			img.style.margin = "0 auto"; 
+			}
+			else if(ans==="ENEMY"){
+			img.src ='enemy.jpg';
+			img.style.margin = "0 auto"; 
+			}
+			else {
+			img.src = 'sister.jpg';
+			img.style.margin = "0 auto"; 
+			}
+			
+		    // This next line will just add it to the <body> tag
+		    document.body.appendChild(img);
+			}
+
 }
