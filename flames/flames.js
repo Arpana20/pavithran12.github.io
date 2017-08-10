@@ -65,27 +65,27 @@ function flames(){
 		console.log(ans);
 	  var img = document.createElement("img");
 		    if (ans==="FRIEND"){
-		    img.src ='friends.jpg';
+		    img.src ='https://github.com/Pavithran12/pavithran12.github.io/blob/master/flames/Friends.jpg';
 		    img.style.margin = "0 auto"; 
 			}
 			else if(ans==="LOVE"){
-			img.src ='love.jpg';
+			img.src ='https://github.com/Pavithran12/pavithran12.github.io/blob/master/flames/Love.jpg';
 			img.style.margin = "0 auto"; 
 			}
 			else if(ans==="AFFECTION"){
-			img.src ='affection.jpg';
+			img.src ='https://github.com/Pavithran12/pavithran12.github.io/blob/master/flames/Affection.jpg';
 			img.style.margin = "0 auto"; 
 			}
 			else if(ans==="MARRIAGE"){
-			img.src = 'marriage.jpg';
+			img.src = 'https://github.com/Pavithran12/pavithran12.github.io/blob/master/flames/Marriage.jpg';
 			img.style.margin = "0 auto"; 
 			}
 			else if(ans==="ENEMY"){
-			img.src ='enemy.jpg';
+			img.src ='https://github.com/Pavithran12/pavithran12.github.io/blob/master/flames/enemy.jpg';
 			img.style.margin = "0 auto"; 
 			}
 			else {
-			img.src = 'sister.jpg';
+			img.src = 'https://github.com/Pavithran12/pavithran12.github.io/blob/master/flames/Sister.jpg';
 			img.style.margin = "0 auto"; 
 			}
 			
