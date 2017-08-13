@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/normalize.css" />
+		<link rel="stylesheet" href="assets/css/stylesheet.css" />
 	</head>
 	<body>
 
@@ -23,7 +24,7 @@
 					<li><a href="about.html">About</a></li>
 					<li><a href="clubs.html">Clubs</a></li>
 					<li><a href="#events">Events</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#register">Register</a></li>
 				</ul>
 			</nav>
 			<!-- Banner -->
@@ -59,7 +60,7 @@
 									<p class="caption">
 										<label>ALUMNI ASSOCIATION</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#aa" class="link"><span>Click Me</span></a>
 								</div>
 								<div class="video col">
 									<div class="image fit">
@@ -73,7 +74,7 @@
 										LEAGUE OF WRITERS
 									</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#lw" class="link"><span>Click Me</span></a>
 								</div>
 								<div class="video col">
 									<div class="image fit">
@@ -85,19 +86,7 @@
 									<p class="caption">
 										<label>SPELL BEE</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
-								</div>
-								<div class="video col">
-									<div class="image fit">
-										<img src="images/mun.jpg" alt="" />
-										<div class="arrow">
-											<div class="icon fa-play"></div>
-										</div>
-									</div>
-									<p class="caption">
-										<label>GLOBAL LEADERS CONGRESS</label>
-									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#sb" class="link"><span>Click Me</span></a>
 								</div>
 								<div class="video col">
 									<div class="image fit">
@@ -109,7 +98,7 @@
 									<p class="caption">
 										<label>ENVIRONMENTAL CLUB</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#env" class="link"><span>Click Me</span></a>
 								</div>
 								<div class="video col">
 									<div class="image fit">
@@ -121,7 +110,7 @@
 									<p class="caption">
 										<label>FINE ARTS CLUB</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#fa" class="link"><span>Click Me</span></a>
 								</div>
 								<div class="video col">
 									<div class="image fit">
@@ -133,7 +122,7 @@
 									<p class="caption">
 										<label>ENTREPRENEUR CLUB</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#ent" class="link"><span>Click Me</span></a>
 								</div>
 								<div class="video col">
 									<div class="image fit">
@@ -145,7 +134,7 @@
 									<p class="caption">
 										<label>PHOTOGRAPHY CLUB</label>
 									</p>
-									<a href="clubs.html" class="link"><span>Click Me</span></a>
+									<a href="clubs.html#pc" class="link"><span>Click Me</span></a>
 								</div>
 							</div>
 					</div>
@@ -171,6 +160,39 @@
 							</div>
 					</div>
 				</section>
+	<section class="wrapper ">
+					<div class="container" id="register">
+						<header class="align-center">
+							<h2>Register</h2>
+						</header>
+			<form>
+				<fieldset>
+				<!--legend is used as outer layer-->
+				<legend>Please Fill out!</legend>
+				<!--for is used as link to an id in input type-->
+				<label for="for-name">Student Name :</label>
+				<input type="text" id="for-name"> 
+				<label for="for-dept">Department :</label>
+				<input type="text" id="for-dept"> 
+				<label for="for-dept">Roll No :</label>
+				<input type="text" id="for-dept"> 
+				<label for="for-dept">Year of study:</label>
+				<input type="text" id="for-dept"> 
+				<label for="for-clubs">Clubs Interested:</label>
+				<input type="text" id="for-clubs">
+				<label for="for-why">Why these clubs??</label>
+				<textarea id="for-why"></textarea>
+				<label for="for-email">Email-ID :</label>
+				<input type="email" id="for-email"> 
+				<label for="for-phno">Phone Number:</label>
+				<input type="text" id="for-phno">
+				<input type="submit" value="Register">
+				<input type="reset" value="type again!">  
+				</fieldset>
+			</form>
+	</div>
+	</section>
+
 
 	<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
