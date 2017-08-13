@@ -1,0 +1,50 @@
+html{
+	background: url(images/bg.jpg);
+	color:white;
+}
+#container{
+	width:50%;
+	margin:0 auto;
+}
+fieldset{
+	padding:5vh;
+	border:solid .2vh #aaa;
+	border-radius:.2vh;
+	background-image: url(images/bg2.jpg);
+	font-size:2vh;
+	color:white;
+}
+fieldset legend
+{
+	background: url(images/bg.jpg);
+	color:white;
+	padding:1vh;
+	border:solid .2vh #454545;
+	text-transform: uppercase;
+
+}
+input[type="text"],input[type="email"],input[type="tel"],textarea{
+	border-radius: .2vh;
+	padding: 1vh;
+	margin:0vh 0vh 2vh;
+	border:solid .2vh #454545;
+	display:block;
+	width:50%;
+	font-size:2vh;
+	color:#777;
+	font-family: Monoco, monospace;
+	text-transform: uppercase;
+}
+label{
+	font-size:2vh;
+	text-transform:uppercase;
+	background: url(images/bg.jpg);
+	color:white;
+	padding:1vh;
+	border:solid .2vh #454545;
+	display: block;
+	width:50%;
+}
+textarea{
+	resize:none;
+}
