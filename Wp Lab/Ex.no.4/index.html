@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<center><b><h2>Welcome Note</h2></b>
+<tr><td> <label>Number 1 </label></td><td><input type="text" id="num1"></td></tr><br><br>
+<tr><td> <label>Number 2 </label></td><td><input type="text" id="num2"></td></tr><br><br>
+<button onclick="myFunction()">Add!</button><br>
+
+<br><div id="output"></div>
+<script>
+function myFunction() 
+{
+   var n1=Number(document.getElementById("num1").value);
+   var n2=Number(document.getElementById("num2").value);
+   var n3=n1+n2;
+   document.getElementById("output").innerHTML ="The Addition of "+n1+" and "+n2+" is "+n3;
+}
+</script>
+</center>
+</body>
+</html>
