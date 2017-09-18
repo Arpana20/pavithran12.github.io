@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<center><b><h2>Welcome Note</h2></b>
+<tr><td> <label>Name</label></td>
+<td><input type="text" id="name" maxlength=20 size=20 required ></td></tr><br><br>
+<button onclick="myFunction()">Note!</button><br>
+
+<br><div id="output" style="color:red;" ></div>
+<script>
+function myFunction() 
+{
+   var gname=document.getElementById("name").value;
+   console.log(gname);
+   document.getElementById("output").innerHTML = "Hello " + gname;
+}
+</script>
+</center>
+</body>
+</html>
