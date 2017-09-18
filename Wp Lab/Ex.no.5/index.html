@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<center><b><h2>Welcome Note</h2></b>
+<tr><td> <label>Starting Index</label></td><td><input type="text" id="num1"></td></tr><br><br>
+<tr><td> <label>Ending Index</label></td><td><input type="text" id="num2"></td></tr><br><br>
+<button onclick="myFunction()">Add!</button><br>
+
+<br><div id="output"></div>
+<script>
+function myFunction() 
+{
+   var n1=Number(document.getElementById("num1").value);
+   var n2=Number(document.getElementById("num2").value);
+   for(count = n1; count <=n2; count++){
+   				if(count%2!=0)
+            	document.getElementById("output").innerHTML =count;
+            }
+   
+}
+</script>
+</center>
+</body>
+</html>
