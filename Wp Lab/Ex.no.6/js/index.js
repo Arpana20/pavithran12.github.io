@@ -4,5 +4,8 @@ function check(){
 	if(name===""||pass===""){
 		document.getElementById("alert").innerHTML="Please fill the fields";
 	}
+	else {
+	document.getElementById("alert").innerHTML="";
+	}
 	
 }
